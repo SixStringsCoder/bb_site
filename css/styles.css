@@ -27,3 +27,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Work Sans', sans-serif;
 }
+
+
+.bg-img-body {
+    background: #6c757d url('/img/bb_BG.jpg') no-repeat fixed center;
+}
