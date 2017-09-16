@@ -4,15 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
  */
 
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 
 /*==================================
@@ -30,5 +22,50 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .bg-img-body {
-    background: #6c757d url('/img/bb_BG.jpg') no-repeat fixed center;
+    background: #6c757d url('') no-repeat fixed center;
+    width: 100vw;
+}
+
+
+/*==================================
+        Nav Bar Styles
+===================================*/
+nav {
+  background-color: #FBB03B;
+}
+
+nav a {
+    color: #000;
+}
+
+.nav-logo {
+    width: 5vw;
+}
+
+.nav-logo-bugs {
+    width: 6vw;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+/*==================================
+        Header Styles
+===================================*/
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: #8CC63F url() no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*==================================
+        Footer Styles
+===================================*/
+footer {
+    background-color: #cbc496;
 }
