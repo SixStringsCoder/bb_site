@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Chewy', cursive;
 }
 
 
@@ -36,10 +36,25 @@ nav {
 
 nav a {
     color: #000;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.logo-nav-area {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 .nav-logo {
+    margin-top: 10px;
+}
+.logo-img {
+    /*flex: 0 2 auto;*/
     width: 5vw;
+    height: 14vh;
+    margin-right: 2vw;
+    border: 1px solid black;
+    border-radius: 25%;
+    padding: 10px;
 }
 
 .nav-logo-bugs {
@@ -48,6 +63,7 @@ nav a {
 
 .navbar-brand {
     font-size: 2rem;
+    font-family: 'Chewy', cursive;
 }
 
 /*==================================
@@ -61,6 +77,23 @@ nav a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/*==================================
+        Body Styles
+===================================*/
+
+.headings-container {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headings-container h1 {
+    font-size: 5.5rem;
+    color: #f7f7f7;
 }
 
 /*==================================
